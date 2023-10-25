@@ -1,0 +1,17 @@
+const myAge = 24;
+//creating a constant with my age
+let earlyYears = 2;
+//creating a variant with the early years of dogslife
+earlyYears = earlyYears * 10.5;
+let laterYears = myAge - 2;
+//laterYears is my age minus the 2 first years
+laterYears = laterYears * 4;
+console.log(earlyYears);
+console.log(laterYears);
+let myAgeInDogYears;
+myAgeInDogYears = earlyYears + laterYears;
+//just create a variant and add another 2 variants in it
+const myName = 'Ian';
+console.log(myName.toLowerCase());
+//create a constant with my name and printed it in lowercase letters
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years`);
