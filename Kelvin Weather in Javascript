@@ -1,0 +1,15 @@
+const kelvin = 0;
+// if kelvin is a constant, then i used const
+let celsius;
+celsius = kelvin - 273;
+// celsius is a variant, so I used let and put a math on it
+let fahrenheit;
+fahrenheit = celsius * (9/5) + 32;
+//same then celsius
+fahrenheit = Math.floor(fahrenheit);
+//put the variant fahrenheit in decimal
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+let newton;
+newton = celsius * (33 / 100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`);
